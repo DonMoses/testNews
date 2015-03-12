@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/left_chat_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:hint="Mar"
+        android:gravity="center"
+        android:background="@android:color/holo_purple"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/right_chat_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:hint="Mos"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_green_dark"
+        android:layout_gravity="center_vertical|end"/>
+
+    <TextView
+        android:id="@+id/text_view_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:ellipsize="end"
+        android:hint="welcome to tuLing"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/chat_info_bg_left"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>

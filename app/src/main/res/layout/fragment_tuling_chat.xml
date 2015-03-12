@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_view_chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:cacheColorHint="#0000"
+        android:divider="@null"
+        android:dividerHeight="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="62.5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_text_chat"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_vertical"
+            android:hint="在这里输入哦，亲..." />
+
+        <Button
+            android:id="@+id/button_send_info"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|end"
+            android:background="@android:color/holo_green_light"
+            android:hint="发送"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

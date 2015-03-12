@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News Sniper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_item_news">新闻</string>
+    <string name="menu_item_videos">视频</string>
+    <string name="menu_item_pictures">图片</string>
+    <string name="menu_item_arguments">跟帖</string>
+
+
+    <string name="news_title_headline">头条</string>
+    <string name="news_title_science">科技</string>
+    <string name="news_title_entertainment">娱乐</string>
+    <string name="news_title_education">教育</string>
+    <string name="news_title_medicine">医疗</string>
+    <string name="news_title_nature">自然</string>
+    <string name="news_title_it">IT</string>
+    <string name="news_title_life">生活</string>
+    <string name="news_title_style">流行</string>
+    <string name="news_title_story">故事会</string>
+    <string name="news_title_industry">工业</string>
+    <string name="news_title_politic">政治</string>
+    <string name="news_title_economic">金融</string>
+    <string name="news_title_domain">房地产</string>
+
+
+</resources>
